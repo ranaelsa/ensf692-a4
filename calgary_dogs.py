@@ -21,7 +21,6 @@ def main():
 
     # Set indices
     all_data.set_index(['Breed', 'Year', 'Month'], inplace = True)
-    all_data.to_excel('test.xlsx')
 
     print("ENSF 692 Dogs of Calgary")
     # User input stage
